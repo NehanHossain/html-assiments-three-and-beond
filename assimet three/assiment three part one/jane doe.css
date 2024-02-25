@@ -3,7 +3,7 @@ body {
   }
   
   h1 {
-    color: #FFC0CB;
+    color: #FF69B4;
     font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 10px dotted #800080;
@@ -17,11 +17,18 @@ body {
     color: #999999;
     font-weight: bold;
   }
-  
-  a:link, a:visited {
+ 
+  .Email{
+    color: green;
+  }
+  .Web{
     color: #fb6542;
   }
+
   
-  a:hover {
-    text-decoration: none;
+  .contact-box {
+    border: 5px solid #800080; 
+    padding: 10px; 
+    margin-bottom: 20px; 
   }
+   
